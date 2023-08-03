@@ -1,0 +1,15 @@
+name: Manual Trigger Example
+
+on:
+  workflow_dispatch:
+    inputs:
+      name:
+        description: 'Enter your name'
+        required: true
+
+jobs: 
+  printGreeting: 
+    runs-on: ubuntu-latest
+    steps: 
+      - name: Print Greeting
+        run: echo "Hello ${{ github.event.inputs.name }}"
