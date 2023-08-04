@@ -8981,10 +8981,10 @@ std-env@^3.0.1:
   resolved "https://registry.yarnpkg.com/std-env/-/std-env-3.3.3.tgz#a54f06eb245fdcfef53d56f3c0251f1d5c3d01fe"
   integrity sha512-Rz6yejtVyWnVjC1RFvNmYL10kgjC49EOghxWn0RFqlCHGFpQx+Xe7yW3I4ceK1SGrWIGMjD5Kbue8W/udkbMJg==
 
-strapi-plugin-open-ai-embeddings@^1.0.6:
-  version "1.0.6"
-  resolved "https://registry.yarnpkg.com/strapi-plugin-open-ai-embeddings/-/strapi-plugin-open-ai-embeddings-1.0.6.tgz#9f532b5fcce5c5965a9ac7fc3e56fba7386bbc4c"
-  integrity sha512-lqGo1sX4iArh1dYXKACvTL+8kxJYvUJDe7bR5LGKLr9ayBMmkuZLHOvi5qm9OL1MM1GFBznj8SQFPoAYojghyA==
+strapi-plugin-open-ai-embeddings@^1.0.8:
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/strapi-plugin-open-ai-embeddings/-/strapi-plugin-open-ai-embeddings-1.0.8.tgz#8a806619ae9a83470bdabbd106b0062953749990"
+  integrity sha512-EpLX7lebTHXWqCXyCh1CIu7IcDyWPgXuh2zoA6VCdztjIwMyZFtEzUeLVxSDM6y5zAaOvluFmHrozMNBbqTIfw==
   dependencies:
     "@pinecone-database/pinecone" "^0.1.6"
     "@strapi/design-system" "^1.6.3"
