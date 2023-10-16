@@ -1,0 +1,58 @@
+{
+  "kind": "collectionType",
+  "collectionName": "settings",
+  "info": {
+    "singularName": "setting",
+    "pluralName": "settings",
+    "displayName": "setting",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "embedding": {
+      "type": "relation",
+      "relation": "morphOne",
+      "target": "plugin::open-ai-embeddings.embedding",
+      "morphBy": "related",
+      "configurable": false
+    },
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "site": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::site.site",
+      "inversedBy": "setting"
+    },
+    "metadata": {
+      "type": "component",
+      "repeatable": false,
+      "component": "meta.metadata"
+    },
+    "favicon": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "logo": {
+      "displayName": "Logo",
+      "type": "component",
+      "repeatable": false,
+      "component": "elements.logo"
+    },
+    "navigation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "layout.navbar"
+    }
+  }
+}
